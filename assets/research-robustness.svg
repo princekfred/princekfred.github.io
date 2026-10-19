@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380" role="img" aria-label="Decorative comparison of unstable and stable numerical eigenproblems">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#203747"/><stop offset=".55" stop-color="#132533"/><stop offset="1" stop-color="#0c1b29"/></linearGradient>
+  <pattern id="grid" width="37" height="37" patternUnits="userSpaceOnUse"><path d="M37 0H0V37" fill="none" stroke="#84a1a6" stroke-opacity=".12" stroke-width="1"/></pattern>
+  <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#eecb8b"/><stop offset="1" stop-color="#bd9161"/></linearGradient>
+</defs>
+<rect width="620" height="380" fill="url(#bg)"/><rect width="620" height="380" fill="url(#grid)"/>
+<path d="M0 0H620V380H0Z" fill="none" stroke="#4d6470" stroke-opacity=".65" stroke-width="2"/>
+<text x="37" y="48" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" font-weight="600" fill="#d6bd8e">WELL-CONDITIONED METHODS</text><path d="M38 64H100" stroke="#dfbe80" stroke-width="2"/>
+<g transform="translate(70 109)" stroke="#a4b3b8" stroke-width="1.5" fill="none"><path d="M0 180V0M0 180H210" opacity=".7"/><path d="M266 180V0M266 180H480" opacity=".7"/></g>
+<g fill="#b5c5c8" font-family="Arial,sans-serif" font-size="14" letter-spacing="1"><text x="106" y="326">ILL-CONDITIONED</text><text x="384" y="326">STABLE SPECTRUM</text></g>
+<g stroke="#e9bf83" fill="none" stroke-width="2.7"><path d="M75 235L105 178L138 205L169 120L198 169L228 130L264 155" opacity=".85"/><path d="M339 196L363 190L391 194L423 187L460 190L498 184L551 187"/></g>
+<g fill="#f4cf91"><circle cx="75" cy="235" r="5"/><circle cx="105" cy="178" r="5"/><circle cx="138" cy="205" r="5"/><circle cx="169" cy="120" r="5"/><circle cx="198" cy="169" r="5"/><circle cx="228" cy="130" r="5"/><circle cx="264" cy="155" r="5"/><circle cx="339" cy="196" r="5"/><circle cx="363" cy="190" r="5"/><circle cx="391" cy="194" r="5"/><circle cx="423" cy="187" r="5"/><circle cx="460" cy="190" r="5"/><circle cx="498" cy="184" r="5"/><circle cx="551" cy="187" r="5"/></g>
+<g fill="#91b3b2" font-family="Georgia,serif" font-size="20"><text x="82" y="102">S ≉ I</text><text x="347" y="102">S = I</text></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380" role="img" aria-label="Decorative diagram of circuit correction and energy improvement">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#203747"/><stop offset=".55" stop-color="#132533"/><stop offset="1" stop-color="#0c1b29"/></linearGradient>
+  <pattern id="grid" width="37" height="37" patternUnits="userSpaceOnUse"><path d="M37 0H0V37" fill="none" stroke="#84a1a6" stroke-opacity=".12" stroke-width="1"/></pattern>
+  <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#eecb8b"/><stop offset="1" stop-color="#bd9161"/></linearGradient>
+</defs>
+<rect width="620" height="380" fill="url(#bg)"/><rect width="620" height="380" fill="url(#grid)"/>
+<path d="M0 0H620V380H0Z" fill="none" stroke="#4d6470" stroke-opacity=".65" stroke-width="2"/>
+<text x="37" y="48" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" font-weight="600" fill="#d6bd8e">POST-OPTIMIZATION CORRECTION</text><path d="M38 64H100" stroke="#dfbe80" stroke-width="2"/>
+<g fill="none" stroke="#627f8f" opacity=".9"><path d="M42 133H335M42 183H335M42 233H335" stroke-width="2"/></g>
+<g fill="#173648" stroke="#a9c5ba" stroke-width="2"><rect x="100" y="113" width="74" height="140" rx="4"/><rect x="225" y="115" width="57" height="38" rx="4"/><rect x="225" y="164" width="57" height="38" rx="4"/><rect x="225" y="214" width="57" height="38" rx="4"/></g>
+<g fill="#e4d5b8" font-family="Georgia,serif" font-size="22"><text x="119" y="192">U(θ)</text><text x="243" y="140">H</text><text x="243" y="190">H</text><text x="243" y="239">H</text></g>
+<path d="M328 182H374" fill="none" stroke="#dfbe80" stroke-width="2" stroke-dasharray="4 5"/><path d="M365 173L375 182L365 191" fill="none" stroke="#dfbe80" stroke-width="2"/>
+<g transform="translate(385 101)"><path d="M0 169H204M0 0V169" stroke="#99afbc" fill="none" stroke-opacity=".65" stroke-width="1.5"/><path d="M0 28C30 49 45 105 88 130S156 145 204 152" stroke="#9cb5b0" stroke-width="3" fill="none"/><path d="M0 83C34 115 60 139 90 148S171 157 204 159" stroke="#e6c083" stroke-width="3" fill="none"/><path d="M0 161H204" stroke="#e6c083" stroke-width="1" stroke-dasharray="4 5" opacity=".6"/></g>
+<g fill="#c0cbd0" font-family="Arial,sans-serif" font-size="12" letter-spacing="1"><text x="44" y="330">OPTIMIZED REFERENCE</text><text x="386" y="330">ENERGY IMPROVEMENT</text></g>
+</svg>
