@@ -6,14 +6,14 @@ A six-page, static academic portfolio for GitHub Pages. The site uses plain HTML
 
 | File | Content |
 | --- | --- |
-| `index.html` | Centered profile, portrait, research summary, and professional links |
+| `index.html` | Glossy profile, moving photo journal, research previews, and professional links |
 | `research.html` | Strongly correlated systems, heavy-metal complexes, and excited-state quantum algorithms |
 | `publications.html` | Publications and preprints |
 | `awards-presentations.html` | Awards and research presentations |
 | `teaching.html` | Teaching, mentoring, and volunteer service |
 | `gallery.html` | Conference and award photographs |
 | `styles.css` | Shared responsive design and themes |
-| `script.js` | Theme switch, copyright year, and gallery lightbox |
+| `script.js` | Theme switch, homepage photo slideshow, copyright year, and gallery lightbox |
 
 All links between pages and assets use relative paths, so the site works at a GitHub Pages account root or project path.
 
@@ -21,7 +21,7 @@ All links between pages and assets use relative paths, so the site works at a Gi
 
 Change text directly in the relevant HTML page. The awards and presentations are listed in `awards-presentations.html`; the gallery contains photographs and captions separately. Add an item by copying a complete `<li>` in the appropriate list and updating its title, source, and date.
 
-The homepage portrait is `assets/prince.png`. To change it, add your new image under `assets/` and update the portrait `<img>` in `index.html`. Gallery images are in `assets/gallery/`; when replacing one, update its filename, alternative text, and caption in `gallery.html`.
+The homepage slideshow uses `assets/hpg-home.jpg` and `assets/prince-home.jpg`, compact copies of the original portraits, plus selected images from `assets/gallery/`. To change a slide, add your image under `assets/` and update its `<img>` and caption in `index.html`. Gallery images are in `assets/gallery/`; when replacing one, update its filename, alternative text, and caption in `gallery.html`.
 
 Check names, dates, publication details, and links before publishing.
 

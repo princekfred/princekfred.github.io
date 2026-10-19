@@ -9,13 +9,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Prince Frederick Kwao | Quantum Computing Researcher">
   <meta property="og:description" content="Prince Frederick Kwao studies quantum algorithms for strongly correlated molecules, heavy-metal complexes, and excited states at the University of North Dakota.">
-  <meta property="og:image" content="assets/social-preview.png">
+  <meta property="og:image" content="assets/hpg-home.jpg">
   <link rel="icon" type="image/svg+xml" href="assets/ini.svg">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
   <title>Prince Frederick Kwao | Quantum Computing Researcher</title>
 </head>
-<body>
+<body class="home-page">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
@@ -35,24 +35,96 @@
     </div>
   </header>
   <main id="main">
-    <section class="hero container" aria-labelledby="hero-title">
-      <div class="hero-photo">
-        <img src="assets/prince.png" width="1254" height="1254" alt="Portrait of Prince Frederick Kwao" fetchpriority="high">
-      </div>
-      <div class="hero-content">
-        <p class="eyebrow">PhD researcher · University of North Dakota</p>
-        <h1 id="hero-title">Prince Frederick <span>Kwao</span></h1>
-        <p class="hero-summary">I study quantum algorithms for molecular electronic structure, with a focus on strongly correlated systems, heavy-metal complexes, and excited states.</p>
-        <p class="hero-roles">APS Student Ambassador · Qiskit Advocate</p>
-        <div class="profile-links" aria-label="External professional profiles">
-          <a href="https://scholar.google.com/citations?user=Vb4avzoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
-          <a href="https://github.com/princekfred" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/princekfred/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-          <a href="mailto:prince.kwao@und.edu">Email ↗</a>
+    <section class="home-hero" aria-labelledby="hero-title">
+      <div class="container home-hero-grid">
+        <div class="home-hero-copy">
+          <p class="home-intro-label"><span class="home-intro-spark" aria-hidden="true">✦</span> PhD researcher · University of North Dakota</p>
+          <h1 id="hero-title"><span>Prince Frederick</span><span class="home-name-accent">Kwao</span></h1>
+          <p class="home-hero-lead">Exploring the chemistry of complex molecules through quantum computing.</p>
+          <p class="home-hero-summary">I study quantum algorithms for molecular electronic structure, with a focus on strongly correlated systems, heavy-metal complexes, and excited states.</p>
+          <div class="home-hero-actions">
+            <a class="home-button home-button-primary" href="research.html">Explore my research <span aria-hidden="true">↗</span></a>
+            <a class="home-button home-button-secondary" href="gallery.html">View photo gallery <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="home-credentials" aria-label="Professional roles">
+            <span>APS Student Ambassador</span><span>Qiskit Advocate</span>
+          </div>
+          <div class="home-social" aria-label="External professional profiles">
+            <a href="https://scholar.google.com/citations?user=Vb4avzoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+            <a href="https://github.com/princekfred" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/princekfred/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="mailto:prince.kwao@und.edu">Email ↗</a>
+          </div>
+        </div>
+
+        <div class="home-visual">
+          <div class="home-visual-glow" aria-hidden="true"></div>
+          <div class="home-picture-frame" data-home-slideshow role="region" aria-roledescription="carousel" aria-label="Prince Kwao in portraits and research moments">
+            <div class="home-picture-stage">
+              <figure class="home-slide is-active" data-slide data-caption="Prince Frederick Kwao" data-detail="Quantum computing researcher" aria-hidden="false">
+                <img src="assets/hpg-home.jpg" width="1261" height="1247" alt="Portrait of Prince Frederick Kwao wearing a navy blazer" fetchpriority="high">
+              </figure>
+              <figure class="home-slide" data-slide data-caption="Curiosity in motion" data-detail="Portrait · University of North Dakota" aria-hidden="true">
+                <img src="assets/prince-home.jpg" width="1254" height="1254" alt="Portrait of Prince Frederick Kwao wearing an olive jacket" loading="lazy">
+              </figure>
+              <figure class="home-slide" data-slide data-caption="Sharing new ideas" data-detail="ACS Fall Meeting 2026" aria-hidden="true">
+                <img src="assets/gallery/acsfall'26.jpeg" width="768" height="1024" alt="Prince standing beside his quantum chemistry poster at ACS Fall Meeting 2026" loading="lazy">
+              </figure>
+              <figure class="home-slide" data-slide data-caption="A moment of recognition" data-detail="Academic recognition" aria-hidden="true">
+                <img src="assets/gallery/academic-1.jpeg" width="767" height="1024" alt="Prince and a colleague holding graduate scholarship certificates" loading="lazy">
+              </figure>
+              <div class="home-picture-top" aria-hidden="true"><span class="home-photo-label"><span></span> Photo journal</span><span class="home-photo-count" data-slide-count>01 / 04</span></div>
+              <div class="home-picture-bottom">
+                <div class="home-picture-caption-wrap" aria-live="off" aria-atomic="true">
+                  <p class="home-picture-detail" data-slide-detail>Quantum computing researcher</p>
+                  <p class="home-picture-caption" data-slide-caption>Prince Frederick Kwao</p>
+                </div>
+                <div class="home-picture-controls">
+                  <button type="button" data-slide-prev aria-label="Previous photo"><span aria-hidden="true">←</span></button>
+                  <button type="button" data-slide-next aria-label="Next photo"><span aria-hidden="true">→</span></button>
+                  <button class="home-motion-toggle" type="button" data-slide-toggle aria-label="Pause photo slideshow"><span data-slide-toggle-label>Pause</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="home-slide-dots" aria-label="Choose a photo">
+              <button type="button" data-slide-dot aria-label="Show portrait in navy blazer" aria-current="true"><span></span></button>
+              <button type="button" data-slide-dot aria-label="Show portrait in olive jacket"><span></span></button>
+              <button type="button" data-slide-dot aria-label="Show ACS poster photo"><span></span></button>
+              <button type="button" data-slide-dot aria-label="Show academic recognition photo"><span></span></button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <section class="home-research container" aria-labelledby="home-research-title">
+      <div class="home-section-heading">
+        <div><p class="eyebrow">What I work on</p><h2 id="home-research-title">Research at the edge of possibility.</h2></div>
+        <a href="research.html" class="home-section-link">All research <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-research-grid">
+        <a class="home-research-card" href="research.html#strong-correlation">
+          <div class="home-research-art"><img src="assets/research-correlation.svg" width="620" height="380" alt="" loading="lazy"></div>
+          <div class="home-research-card-copy"><span class="home-card-index">01 / Molecular complexity</span><h3>Strongly correlated systems</h3><p>Quantum approaches to molecules and heavy-metal complexes with demanding electronic structure.</p><span class="home-card-arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="home-research-card" href="research.html#excited-states">
+          <div class="home-research-art"><img src="assets/research-excited.svg" width="620" height="380" alt="" loading="lazy"></div>
+          <div class="home-research-card-copy"><span class="home-card-index">02 / Quantum algorithms</span><h3>Excited states</h3><p>Quantum subspace methods for predicting molecular excitation energies reliably.</p><span class="home-card-arrow" aria-hidden="true">↗</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="home-moments container" aria-labelledby="home-moments-title">
+      <div class="home-section-heading">
+        <div><p class="eyebrow">Outside the notebook</p><h2 id="home-moments-title">Science is a shared journey.</h2></div>
+        <a href="gallery.html" class="home-section-link">Explore the gallery <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-moments-grid">
+        <a class="home-moment-card" href="gallery.html#presentations"><img src="assets/gallery/aps'26.jpeg" width="1024" height="768" alt="Prince speaking during an APS conference presentation" loading="lazy"><span>On stage at APS <span aria-hidden="true">↗</span></span></a>
+        <a class="home-moment-card" href="gallery.html#presentations"><img src="assets/gallery/APS-1.jpeg" width="576" height="1024" alt="Prince at an APS conference event" loading="lazy"><span>Connecting at APS <span aria-hidden="true">↗</span></span></a>
+        <a class="home-moment-card" href="gallery.html#presentations"><img src="assets/gallery/ACS RRV 2026.jpeg" width="1024" height="536" alt="University of North Dakota group at the ACS Red River Valley research conference" loading="lazy"><span>UND at ACS RRV <span aria-hidden="true">↗</span></span></a>
+      </div>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="container footer-inner">
