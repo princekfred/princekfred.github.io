@@ -4,6 +4,22 @@
   const root = document.documentElement;
   root.classList.add('has-js');
 
+  // Keep the desktop copy in one column while placing the journal before the
+  // detailed bio in the phone reading and keyboard order.
+  const heroCopy = document.querySelector('.home-hero-copy');
+  const heroIntro = heroCopy?.querySelector('.home-hero-intro');
+  const heroVisual = document.querySelector('.home-visual');
+  if (heroCopy && heroIntro && heroVisual && window.matchMedia) {
+    const phoneLayout = window.matchMedia('(max-width: 760px)');
+    const arrangeHero = () => {
+      if (phoneLayout.matches) heroIntro.after(heroVisual);
+      else heroCopy.after(heroVisual);
+    };
+    arrangeHero();
+    if (phoneLayout.addEventListener) phoneLayout.addEventListener('change', arrangeHero);
+    else phoneLayout.addListener(arrangeHero);
+  }
+
   const menuButton = document.querySelector('[data-menu-toggle]');
   const siteNav = document.getElementById('site-nav');
   if (menuButton && siteNav) {
