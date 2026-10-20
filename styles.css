@@ -254,6 +254,8 @@ h1, h2, h3 { text-wrap: balance; }
 .home-name-accent { width: fit-content; padding-right: .08em; background: linear-gradient(110deg, #e7fffa 4%, #85dad5 43%, #488eaf 100%); color: transparent; -webkit-background-clip: text; background-clip: text; }
 .home-hero-lead { max-width: 540px; margin: 0 0 15px; font: 400 clamp(22px, 2.2vw, 29px)/1.35 var(--serif); letter-spacing: -.024em; color: var(--text); }
 .home-hero-summary { max-width: 540px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.78; }
+.home-hero-affiliation { max-width: 540px; margin: 14px 0 0; color: var(--subtle); font-size: 13px; line-height: 1.65; }
+.home-hero-affiliation a { color: var(--accent); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .home-hero-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 32px; }
 .home-button { display: inline-flex; align-items: center; justify-content: center; gap: 22px; min-height: 49px; padding: 11px 20px; border: 1px solid var(--border); border-radius: 999px; font-size: 12px; font-weight: 750; letter-spacing: .015em; transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
 .home-button span { font-size: 16px; line-height: 1; }
