@@ -21,7 +21,7 @@ All links between pages and assets use relative paths, so the site works at a Gi
 
 Change text directly in the relevant HTML page. The awards and presentations are listed in `awards-presentations.html`; the gallery contains photographs and captions separately. Add an item by copying a complete `<li>` in the appropriate list and updating its title, source, and date.
 
-The homepage slideshow uses `assets/hpg-home.jpg` and `assets/prince-home.jpg`, compact copies of the original portraits, plus selected images from `assets/gallery/`. To change a slide, add your image under `assets/` and update its `<img>` and caption in `index.html`. Gallery images are in `assets/gallery/`; when replacing one, update its filename, alternative text, and caption in `gallery.html`.
+The homepage slideshow uses `assets/prince-home.jpg` and selected images from `assets/gallery/`. To change a slide, add your image under `assets/` and update its `<img>` and caption in `index.html`. Gallery images are in `assets/gallery/`; when replacing one, update its filename, alternative text, and caption in `gallery.html`.
 
 Check names, dates, publication details, and links before publishing.
 

@@ -30,6 +30,7 @@
 
       </nav>
       <div class="header-controls">
+        <button class="mobile-menu-toggle" type="button" data-menu-toggle aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">Menu</button>
         <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch to light theme" title="Switch light/dark theme"><svg class="sun-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2m0 16v2M4.9 4.9l1.5 1.5m11.2 11.2 1.5 1.5M2 12h2m16 0h2M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><svg class="moon-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14a8.5 8.5 0 0 1-10-10A8.5 8.5 0 1 0 20 14Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></button>
       </div>
     </div>
@@ -61,20 +62,17 @@
           <div class="home-visual-glow" aria-hidden="true"></div>
           <div class="home-picture-frame" data-home-slideshow role="region" aria-roledescription="carousel" aria-label="Prince Kwao in portraits and research moments">
             <div class="home-picture-stage">
-              <figure class="home-slide is-active" data-slide data-caption="Prince Frederick Kwao" data-detail="PhD Candidate" aria-hidden="false">
-                <img src="assets/hpg-home.jpg" width="1261" height="1247" alt="Portrait of Prince Frederick Kwao wearing a navy blazer" fetchpriority="high">
-              </figure>
-              <figure class="home-slide" data-slide data-caption="Curiosity in motion" aria-hidden="true">
-                <img src="assets/prince-home.jpg" width="1254" height="1254" alt="Portrait of Prince Frederick Kwao wearing an olive jacket" loading="lazy">
+              <figure class="home-slide is-active" data-slide data-caption="Curiosity in motion" aria-hidden="false">
+                <img src="assets/prince-home.jpg" width="1254" height="1254" alt="Portrait of Prince Frederick Kwao wearing an olive jacket" fetchpriority="high">
               </figure>
               <figure class="home-slide" data-slide data-caption="A moment of recognition" data-detail="Academic recognition" aria-hidden="true">
                 <img src="assets/gallery/academic-1.jpeg" width="767" height="1024" alt="Prince and a colleague holding graduate scholarship certificates" loading="lazy">
               </figure>
-              <div class="home-picture-top" aria-hidden="true"><span class="home-photo-label"><span></span> Photo journal</span><span class="home-photo-count" data-slide-count>01 / 03</span></div>
+              <div class="home-picture-top" aria-hidden="true"><span class="home-photo-label"><span></span> Photo journal</span><span class="home-photo-count" data-slide-count>01 / 02</span></div>
               <div class="home-picture-bottom">
                 <div class="home-picture-caption-wrap" aria-live="off" aria-atomic="true">
-                  <p class="home-picture-detail" data-slide-detail>PhD Candidate</p>
-                  <p class="home-picture-caption" data-slide-caption>Prince Frederick Kwao</p>
+                  <p class="home-picture-detail" data-slide-detail></p>
+                  <p class="home-picture-caption" data-slide-caption>Curiosity in motion</p>
                 </div>
                 <div class="home-picture-controls">
                   <button type="button" data-slide-prev aria-label="Previous photo"><span aria-hidden="true">←</span></button>
@@ -84,8 +82,7 @@
               </div>
             </div>
             <div class="home-slide-dots" aria-label="Choose a photo">
-              <button type="button" data-slide-dot aria-label="Show portrait in navy blazer" aria-current="true"><span></span></button>
-              <button type="button" data-slide-dot aria-label="Show portrait in olive jacket"><span></span></button>
+              <button type="button" data-slide-dot aria-label="Show portrait in olive jacket" aria-current="true"><span></span></button>
               <button type="button" data-slide-dot aria-label="Show academic recognition photo"><span></span></button>
             </div>
           </div>

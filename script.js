@@ -2,6 +2,35 @@
    Page navigation and gallery display work without JavaScript. */
 (() => {
   const root = document.documentElement;
+  root.classList.add('has-js');
+
+  const menuButton = document.querySelector('[data-menu-toggle]');
+  const siteNav = document.getElementById('site-nav');
+  if (menuButton && siteNav) {
+    function setMenuOpen(open) {
+      siteNav.classList.toggle('is-open', open);
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menuButton.textContent = open ? 'Close' : 'Menu';
+    }
+
+    menuButton.addEventListener('click', () => {
+      setMenuOpen(menuButton.getAttribute('aria-expanded') !== 'true');
+    });
+    siteNav.addEventListener('click', event => {
+      if (event.target.closest('a')) setMenuOpen(false);
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        setMenuOpen(false);
+        menuButton.focus();
+      }
+    });
+    window.addEventListener('resize', () => {
+      if (window.getComputedStyle(menuButton).display === 'none') setMenuOpen(false);
+    });
+  }
+
   const button = document.querySelector('[data-theme-toggle]');
   const meta = document.querySelector('meta[name="theme-color"]');
   let stored = null;
